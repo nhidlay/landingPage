@@ -91,3 +91,59 @@ ul {
 .information .call-to-action {
     background-color: white;
 }
+
+.information {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.information-images {
+    //padding-top: 20px;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.information-text {
+    padding-top: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    flex-wrap: wrap;
+    //width: 900px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding-top: 100px;
+    font-style: italic;
+}
+
+.quote-attribution {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+}
